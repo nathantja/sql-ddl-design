@@ -15,6 +15,10 @@
 -- name, text or varchar() PRIMARY KEY
 -- planet_name, REFERENCES PLANETS, FOREIGN KEY
 
+-- TODO: star / planet / moon - not specific enough. "name" would work better.
+-- have a good defense for decision
+-- FIXME: Numeric's job is to preserve exact number. less useful for a "measured value"
+-- float works better in this case
 
 CREATE TABLE stars (
     star VARCHAR(50) PRIMARY KEY,
